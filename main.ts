@@ -314,3 +314,4 @@ mySprite5 = sprites.create(img`
     ........................
 `, SpriteKind.KillerNPC)
 mySprite5.setPosition(601, 201)
+mySprite5.follow(mySprite)
