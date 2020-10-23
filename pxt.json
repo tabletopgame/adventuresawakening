@@ -1,35 +1,26 @@
 {
-    "name": "the beta of a game",
-    "description": "",
+    "name": "adventuresawakening",
     "dependencies": {
         "device": "*"
     },
     "files": [
+        ".vscode/settings.json",
+        ".vscode/tasks.json",
+        "README.md",
+        "SECURITY.md",
         "main.blocks",
         "main.ts",
-        "README.md",
+        "test.ts",
         "tilemap.g.jres",
         "tilemap.g.ts",
-        null
-    ],
-    "testFiles": [
-        "test.ts"
+        "tsconfig.json"
     ],
     "targetVersions": {
-        "branch": "v1.2.6",
-        "tag": "v1.2.6",
-        "commits": "https://github.com/microsoft/pxt-arcade/commits/7f343e1ba30a4c31de6b7b14d288d34b2741b2f4",
         "target": "1.2.6",
-        "pxt": "6.2.21",
         "targetId": "arcade"
     },
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj",
-    "yotta": {
-        "config": {
-            "PXT_GC_CHECKS": 1
-        }
-    }
+    "preferredEditor": "blocksprj"
 }
